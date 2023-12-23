@@ -1659,7 +1659,6 @@ framework/mediatek-gwsdv2.jar
 framework/mediatek-ims-extension-plugin.jar
 framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
 framework/mediatek-wfo-legacy.jar
 -framework/oplus-framework-telephony.jar
@@ -1741,7 +1740,8 @@ vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # ImsService
--priv-app/ImsService/ImsService.apk|5e705c96612c35d7e67066c8539f214c127f2a6d
+-framework/mediatek-telephony-base.jar|df6040f34dca4eaf55a8dc4901f26a09e8c4abf9
+-priv-app/ImsService/ImsService.apk|eacfa6f20d2b485669121845462d120113d11fe2
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic
