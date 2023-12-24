@@ -14,6 +14,7 @@ Build.BRAND=MTK
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
 ro.opengles.version=196610
+persist.sys.brightness.low.gamma=true
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
